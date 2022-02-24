@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Sample Flat File Source Data"
+  DTS:DTSID="{BDBC21E1-7B37-4225-A929-DF7F3ED65B43}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1046"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="D:\WorkSpace\Github\Data_Engineering_ETL_Web_Scraping_Big_Data_SQL_Power_BI\Section_02_Implementing_ETL_Process_with_SSIS\Files\SampleCurrencyData.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:DataType="4"
+          DTS:TextQualified="True"
+          DTS:ObjectName="AverageRate"
+          DTS:DTSID="{7F458A58-7D25-424A-BBA9-EB19D8D91932}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CurrencyID"
+          DTS:DTSID="{0224281B-ACAA-4DA7-B7B0-9AD350D67B15}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:DataType="133"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CurrencyDate"
+          DTS:DTSID="{C7F699D1-78BA-4C0A-9E49-52D3C5B5C7F8}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="4"
+          DTS:TextQualified="True"
+          DTS:ObjectName="EndOfDayRate"
+          DTS:DTSID="{7109D3A7-208A-4362-89DC-ED95AAAFA7B7}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
