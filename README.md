@@ -11,6 +11,7 @@
 - Section 08 - Introduction to Big Data
 - [Section 09 - Data Interaction with Power BI](https://github.com/romulovieira777/Data_Engineering_ETL_Web_Scraping_Big_Data_SQL_Power_BI/tree/main/Section_09_Data_Interaction_with_Power_BI)
 - [Section 10 - Connecting to Web Data with Power BI](https://github.com/romulovieira777/Data_Engineering_ETL_Web_Scraping_Big_Data_SQL_Power_BI/tree/main/Section_10_Connecting_to_Web_Data_with_Power_BI)
+- [Section 11 - Connecting and Transforming Database Data with Power BI](https://github.com/romulovieira777/Data_Engineering_ETL_Web_Scraping_Big_Data_SQL_Power_BI/tree/main/Section_11_Connecting_and_Transforming_Database_Data_with_Power_BI)
 
 
 Link to the course: [Udemy](https://www.udemy.com/course/data-engineering-etl-web-scraping-big-datasqlpower-bi/)
